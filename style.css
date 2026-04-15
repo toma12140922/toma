@@ -107,17 +107,12 @@ h5 {
 
 @media (max-width: 768px) {
   h1 {
-    font-size: 28px;
+    font-size: 24px;
   }
+}
 
-  .container {
-    padding: 20px;
-  }
-
+@media (max-width: 768px) {
   img {
     width: 100%;
   }
-
-  .pi {
-    margin: 20px;
-  }
+}
