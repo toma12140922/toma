@@ -1,0 +1,78 @@
+/* =========================
+   Reset CSS + Best Practice
+   ========================= */
+
+/* 全要素リセット */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* htmlの基本 */
+html {
+  font-size: 100%;
+  scroll-behavior: smooth;
+}
+
+/* bodyの基本 */
+body {
+  line-height: 1.5;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 画像・動画 */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* フォーム系 */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* ボタン */
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+/* リンク */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* リスト */
+ul,
+ol {
+  list-style: none;
+}
+
+/* テーブル */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 見出し */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+/* 改行の調整 */
+p {
+  overflow-wrap: break-word;
+}
