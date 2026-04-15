@@ -51,8 +51,8 @@ button {
 
 /* リンク */
 a {
-  text-decoration: none;
-  color: inherit;
+  color: #0078b7;
+  text-decoration: underline
 }
 
 /* リスト */
